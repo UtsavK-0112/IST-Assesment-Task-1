@@ -5,10 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "pwa-msedge",
+            "type": "chrome",
             "request": "launch",
-            "name": "Open navbar-test.html",
-            "file": "c:\\Users\\Utsav Kashichhwa\\Documents\\GitHub\\IST-Assesment-Task-1\\code\\navbar-test.html"
+            "name": "Brave",
+            "runtimeExecutable": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+            "url": "C:\\Users\\Utsav Kashichhwa\\Documents\\GitHub\\IST-Assesment-Task-1\\code\\navbar-test.html",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
+

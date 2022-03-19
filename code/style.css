@@ -1,19 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
-    background-color: #cfcfcf;
+    background-color: #595d62;
 }
 
 header {
     background-color: #595d62;
-    padding: 2px;
+    padding: 4px 0;
+}
+
+main {
+    min-height: 800px;
+    padding: 50px 10%;
+    margin: 5px 4%;
+    border-radius: 20px;
+    background-color: #cad1d6;
+    filter: drop-shadow(0px 3px 8px #181818c2);
 }
 
 .navbar img {
@@ -30,10 +39,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    margin: 5px;
+    padding: 30px;
+    margin: 10px 4%;
     border-radius: 20px;
     background-color: #36383b;
+    filter: drop-shadow(0px 3px 8px #181818c2);
 }
 
 nav ul {
@@ -45,7 +55,7 @@ nav li {
 }
 
 nav li a {
-    padding: 31px 30px;
+    padding: 40px;
     transition: all 0.3s ease 0s;
 }
 
@@ -64,4 +74,23 @@ nav a:hover {
 
 .navbar button:hover {
     background-color: #548b9ca6;
+}
+
+main h1 {
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 40px;
+    border-radius: 10px;
+    margin: 0 25% 50px 25%;
+    color: #ffffff;
+    background-color: #4e728f;
+    
+}
+
+main h2 {
+    margin: 20px 0;
+}
+
+main p {
+    margin-bottom: 20px;
 }
