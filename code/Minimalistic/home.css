@@ -1,0 +1,50 @@
+body {
+    background-image: url(background.png);
+    min-height: 100vh;
+}
+
+main {
+    margin: 100px 15%;
+}
+
+h1, h2, h3, p {
+    color: white;
+}
+
+.introduction {
+    width: 55%;
+    float: left;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.home-img {
+    float: right;
+    width: 30%;
+    filter: drop-shadow(16px 16px 20px #0000008c)
+}
+
+main button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    width: 350px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+main img {
+    width: 30px;
+    transform: translate(0, 3px);
+}
+
+main button p {
+    display: inline;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 200;
+}
