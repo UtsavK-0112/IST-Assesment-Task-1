@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open navbar-test.html",
-            "file": "c:\\Users\\utsav\\OneDrive\\Documents\\GitHub\\IST-Assesment-Task-1\\code\\Minimalistic\\navbar-test.html"
+            "file": "c:\\Users\\utsav\\OneDrive\\Documents\\GitHub\\IST-Assesment-Task-1\\code\\Minimalistic\\index.html"
         }
     ]
 }
