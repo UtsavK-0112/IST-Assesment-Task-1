@@ -4,27 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="contact.css">
     <link rel="icon" type="image/favicon" href="images/favicon.png">
     <script src="https://kit.fontawesome.com/474726052b.js" crossorigin="anonymous"></script>
     <title>Utsav's E-Porfolio</title>
     <style>
         body {
             text-align: center;
+            background-color: #23252e;
         }
 
-        p, h1, h2, h3 {
+        main {
+            margin: 50px 10%;
+            min-width: 700px;
+        }
+
+        h1, h2, h3, p {
             color: white;
-            font-family: 'Montserrat';
         }
 
-        p {
-            font-weight: 400;
-            font-size: 16px;
+        h2 {
+        font-weight: 600;
+        margin-bottom: 20px;
+        font-size: 40px;
         }
 
         i {
-            margin-top: 10%;
+            margin-top: 20vh;
+            margin-bottom: 20px;
+            color: rgb(255, 255, 255);
+            font-size: 30px;
+        }
+
+        p {
+            font-weight: 200;
         }
 
 
@@ -37,11 +49,11 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">About Me</a></li>
+                    <li><a href="about.html">About Me</a></li>
                     <li><a>Assesments</a>
                         <div class="submenu">
                             <a href="task-1.html">Task 1</a>
-                            <a href="task-2.html">Task 2</a>
+                            <a href="task-2.html" class="selected">Task 2</a>
                         </div>
                     </li>
                 </ul>  
@@ -50,7 +62,7 @@
         </header>
     <main>
         <h2>Digital media</h2>
-        <i class="fa-solid fa-person-digging fa-10x"></i>
+        <i class="fa-solid fa-person-digging fa-6x"></i>
         <p>This webpage is in development</p>
     </main>
 </body>
