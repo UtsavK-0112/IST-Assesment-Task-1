@@ -14,20 +14,20 @@ h1, h2, h3, p {
 }
 
 main h2 {
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 25px;
-    font-size: 40px;
+    font-size: 44px;
 }
 
 main h3 {
     font-weight: 600;
     color: white;
-    font-size: 22px;
+    font-size: 28px;
     margin: 18px 0;
 }
 
 main h4 {
-    font-weight: 400;
+    font-weight: 500;
     color: white;
     font-size: 18px;
     margin-bottom: 20px;
@@ -80,7 +80,7 @@ iframe {
   
   /* Create an active/current tablink class */
   .tab button.active {
-    background-color: rgb(29, 29, 34);
+    background-color: #1d1d22;
   }
   
   /* Style the tab content */
@@ -89,7 +89,7 @@ iframe {
     padding: 6px 12px;
     border-top: none;
     border-radius: 0 0 10px 10px;
-    background-color: rgb(20, 20, 23);
+    background-color: #141417;
 }
 
 .tabcontent p {
@@ -105,3 +105,8 @@ iframe {
     vertical-align: middle;
     margin-bottom: 20px;
 }
+
+a {
+    color: aquamarine;
+}
+
